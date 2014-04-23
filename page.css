@@ -1,6 +1,6 @@
 body {
-	padding:none;
-	background-color: rgba(34, 139, 34, 0.7);
+	padding-top: 80px;
+	background: url(img/Leaf.JPG);
 }
 
 .wrap {
@@ -25,10 +25,10 @@ body {
 	line-height: 350px;
 }
 .side-a {
-	background: #498FBC url('img/EDA.JPG');
+	background: url('img/EDA.JPG');
 }
 .side-b {
-	background: #33363B url('img/EDB.JPG');
+	background: url('img/EDB.JPG');
 }
 
 
