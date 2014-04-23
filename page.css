@@ -1,6 +1,6 @@
 body {
 	padding-top: 80px;
-	background: url(img/Leaf.JPG);
+	background: url('img/Leaf.JPG');
 }
 
 .wrap {
