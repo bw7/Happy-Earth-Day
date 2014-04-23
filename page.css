@@ -33,7 +33,7 @@ h1 {
 
 
 /***********************
-WRAP DIV
+WATER DIV
 ***********************/
 
 
@@ -64,6 +64,40 @@ WRAP DIV
 }
 .side-b {
 	background: url('img/LakeB.JPG');
+}
+
+/***********************
+RAINFOREST DIV
+***********************/
+
+.rainforest {
+	position: auto;
+	float: left;
+	margin: 0 auto;
+	width: 250px;
+	height: 350px;
+	cursor: pointer;
+}
+.rainforest div {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 45px rgba(255,255,255,.3), 0 12px 20px -10px rgba(0,0,0,.4);
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0 1px rgba(0,0,0,.3);
+	font: bold 3em sans-serif;
+	line-height: 350px;
+}
+
+.side-a2 {
+	background: url('');
+}
+.side-b2 {
+	background: url('');
 }
 
 
