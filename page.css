@@ -1,12 +1,6 @@
-html {
-  height: 100%;
-  width: 100%;
-  background: url('img/Blue_sky.jpg') no-repeat;
-  background-size: cover;
-}
-
 body {
 	padding:none;
+	background: url('img/Blue_sky.jpg') no-repeat;
 }
 
 .wrap {
@@ -37,10 +31,5 @@ body {
 	background: #33363B url('img/EDB.JPG');
 }
 
-.box {
-	width: 100%;
-	height: 500px;
-	padding: none;
-}
 
 
