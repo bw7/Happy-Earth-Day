@@ -1,6 +1,6 @@
 body {
 	padding:none;
-	background: url('img/Blue_sky.jpg') no-repeat;
+	background-color: rgba(34, 139, 34, 0.7);
 }
 
 .wrap {
