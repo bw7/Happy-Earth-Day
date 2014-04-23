@@ -1,11 +1,26 @@
+/********************************
+GENERAL PERSPECTIVE SET TO 500PX
+TO ENHANCE FOCUS
+********************************/
+
 body {
 	-webkit-perspective: 500px;
 }
 
+
+
+/********************************
+TRANSFORM STYLE IS ALSO GIVEN TO 
+SIDES A AND B CHILD ELEMENTS
+********************************/
 .wrap {
 	transition: -webkit-transform 2s ease-in;
 	-webkit-transform-style: preserve-3d;
 }
+
+/********************************
+MAKES BACKFACE OF IMAGE INVISIBLE
+*********************************/
 
 .wrap div {
 	position: absolute;
@@ -19,7 +34,9 @@ body {
 .side-b {
 	-webkit-transform: rotateY(-180deg);
 }
-
+/*********************************
+WILL MAKE A HALF SPIN
+*********************************/
 .wrap:hover {
 	-webkit-transform: rotateY(-0.5turn);
 }
