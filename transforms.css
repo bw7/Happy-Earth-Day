@@ -13,7 +13,7 @@ body {
 TRANSFORM STYLE IS ALSO GIVEN TO 
 SIDES A AND B CHILD ELEMENTS
 ********************************/
-.wrap {
+.water {
 	transition: -webkit-transform 2s ease-in;
 	-webkit-transform-style: preserve-3d;
 }
@@ -22,7 +22,7 @@ SIDES A AND B CHILD ELEMENTS
 MAKES BACKFACE OF IMAGE INVISIBLE
 *********************************/
 
-.wrap div {
+.water div {
 	position: absolute;
 	-webkit-backface-visibility: hidden;
 }
@@ -37,6 +37,6 @@ MAKES BACKFACE OF IMAGE INVISIBLE
 /*********************************
 WILL MAKE A HALF SPIN
 *********************************/
-.wrap:hover {
+.water:hover {
 	-webkit-transform: rotateY(-0.5turn);
 }

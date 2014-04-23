@@ -37,14 +37,14 @@ WRAP DIV
 ***********************/
 
 
-.wrap {
+.water {
 	position: relative;
 	margin: 0 auto;
 	width: 250px;
 	height: 350px;
 	cursor: pointer;
 }
-.wrap div {
+.water div {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
@@ -60,10 +60,10 @@ WRAP DIV
 }
 
 .side-a {
-	background: url('img/EDA.JPG');
+	background: url('img/LakeA.JPG');
 }
 .side-b {
-	background: url('img/EDB.JPG');
+	background: url('img/LakeB.JPG');
 }
 
 
