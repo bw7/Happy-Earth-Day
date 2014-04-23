@@ -13,16 +13,38 @@ body {
 TRANSFORM STYLE IS ALSO GIVEN TO 
 SIDES A AND B CHILD ELEMENTS
 ********************************/
+
 .water {
 	transition: -webkit-transform 2s ease-in;
 	-webkit-transform-style: preserve-3d;
 }
+.rainforest {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+.drought {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+
 
 /********************************
 MAKES BACKFACE OF IMAGE INVISIBLE
 *********************************/
 
 .water div {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+.rainforest div {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+.drought div {
 	position: absolute;
 	-webkit-backface-visibility: hidden;
 }
@@ -34,9 +56,55 @@ MAKES BACKFACE OF IMAGE INVISIBLE
 .side-b {
 	-webkit-transform: rotateY(-180deg);
 }
+
+.side-a2 {
+	z-index: 100;
+}
+
+.side-b2 {
+	-webkit-transform: rotateY(-180deg);
+}
+
+.side-a3 {
+	z-index: 100;
+}
+
+.side-b3 {
+	-webkit-transform: rotateY(-180deg);
+}
+
+
+
 /*********************************
 WILL MAKE A HALF SPIN
 *********************************/
+
 .water:hover {
 	-webkit-transform: rotateY(-0.5turn);
 }
+
+.water {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+.rainforest:hover {
+	-webkit-transform: rotateY(-0.5turn);
+}
+
+.rainforest {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+.drought:hover {
+	-webkit-transform: rotateY(-0.5turn);
+}
+
+.drought {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+
+
