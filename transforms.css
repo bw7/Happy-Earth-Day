@@ -38,6 +38,12 @@ SIDES A AND B CHILD ELEMENTS
 	-webkit-transform-style: preserve-3d;
 }
 
+.warming {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+
 
 /********************************
 MAKES BACKFACE OF IMAGE INVISIBLE
@@ -64,6 +70,11 @@ MAKES BACKFACE OF IMAGE INVISIBLE
 }
 
 .oil div {
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+}
+
+.warming div {
 	position: absolute;
 	-webkit-backface-visibility: hidden;
 }
@@ -105,6 +116,14 @@ MAKES BACKFACE OF IMAGE INVISIBLE
 }
 
 .side-b5 {
+	-webkit-transform: rotateY(-180deg);
+}
+
+.side-a6 {
+	z-index: 100;
+}
+
+.side-b6 {
 	-webkit-transform: rotateY(-180deg);
 }
 
@@ -158,5 +177,20 @@ WILL MAKE A HALF SPIN
 	transition: -webkit-transform 2s ease-in;
 	-webkit-transform-style: preserve-3d;
 }
+
+.warming:hover {
+	-webkit-transform: rotateY(-0.5turn);
+}
+
+.warming {
+	transition: -webkit-transform 2s ease-in;
+	-webkit-transform-style: preserve-3d;
+}
+
+
+
+
+
+
 
 
