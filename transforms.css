@@ -1,5 +1,5 @@
 body {
-	-webkit-perspective: 950px;
+	-webkit-perspective: 800px;
 }
 
 .wrap {
@@ -21,5 +21,5 @@ body {
 }
 
 .wrap:hover {
-	-webkit-transform: rotateY(-1turn);
+	-webkit-transform: rotateY(-0.5turn);
 }
